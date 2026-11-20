@@ -1,0 +1,89 @@
+/* ======GLOBAl RESET====== */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(31, 155, 153);
+    color: rgb(109, 90, 218);
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+button{
+    font-family: inherit;
+    background: burlywood;
+    border: 0;
+    color: rgb(41, 125, 71);
+    padding: 12px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.topbar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 20px;
+padding: 15px 4%;
+background: rgb(94, 3, 33);
+border-bottom: 1px solid whitesmoke;
+
+}
+.brand{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.brand-logo{
+background-color: rgb(57, 51, 230);
+border-radius:10px ;
+padding: 12px 16px;
+ font-weight: bold;
+font-size: 23px;
+
+}
+.brand h1{
+color: azure;
+letter-spacing: 3px;
+}
+.brand p{
+    color: rgb(216, 158, 116);
+    font-size: 12px;
+}
+nav {
+    display: flex;
+    gap: 20px;
+}
+nav a{  
+color: rgb(227, 100, 125);
+font-size: 13px;
+text-decoration: none;
+}
+nav a:hover{
+color: rgb(153, 55, 55);
+}
+.header-right{
+display: flex;
+gap: 8px;
+align-items: center;
+color: rgb(164, 238, 182);
+font-size: 11px;
+
+}
+online-dot{
+width: 23px; ;
+background:rgb(122, 238, 6) ;
+height: ;
+
+}
+#clock{
+color: aliceblue;
+font-family:monospace ;
+margin-left: 10px;
+}
+
+
